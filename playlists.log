@@ -1,0 +1,95 @@
+Creating /var/lib/radiod/stationlist
+
+cp /usr/share/radio/station.urls /var/lib/radiod/stationlist
+
+Creating M3U files from /var/lib/radiod/stationlist
+
+Playlist: BBC stations
+Processing line 26: http://www.radiofeeds.co.uk/bbcradio1.pls
+Title: BBC Radio 1
+Processing line 27: http://www.radiofeeds.co.uk/bbcradio2.pls
+Title: BBC Radio 2
+Processing line 28: http://www.radiofeeds.co.uk/bbcradio3.pls
+Title: BBC Radio 3
+Processing line 29: http://www.radiofeeds.co.uk/bbcradio4.pls
+Title: BBC Radio 4
+Processing line 30: http://www.radiofeeds.co.uk/bbc5live.pls
+Title: BBC Radio 5 Live
+Processing line 31: http://www.radiofeeds.co.uk/bbc6live.pls
+Title: BBC Radio 6 Live
+Processing line 32: http://www.radiofeeds.co.uk/bbc6music.pls
+Title: BBC Radio 6
+Processing line 33: http://www.radiofeeds.co.uk/bbc5livesportsextra.pls
+Title: BBC Radio 5 Live sports
+Processing line 34: http://www.radiofeeds.co.uk/bbc1xtra.pls
+Title: BBC Radio 1 extra
+Processing line 35: http://www.radiofeeds.co.uk/bbcradiobristol.pls
+Title: BBC Radio Bristol
+Processing line 36: http://www.radiofeeds.co.uk/bbcradio4extra.pls
+Title: BBC Radio 4 extra
+Processing line 37: http://wsdownload.bbc.co.uk/worldservice/meta/live/shoutcast/mp3/eieuk.pls
+Title: BBC World service
+Creating /tmp/radio_stream_files/BBC_stations.m3u
+
+Playlist: Dutch stations
+Processing line 41: http://icecast.omroep.nl/radio1-bb-aac.m3u
+Title: Radio 1 Nederland
+Processing line 42: http://icecast.omroep.nl/radio2-bb-aac.m3u
+Title: Radio 2 Nederland
+Processing line 43: http://icecast.omroep.nl/radio6-blues-bb-aac.m3u
+Title: Radio 6 Blues Nederland
+Processing line 44: http://mp3.streampower.be/radio1-high.mp3
+Title: Stream Power MP3
+Processing line 45: http://candlelight.live-streams.nl/candlelight.m3u
+Title: Candlelight
+Creating /tmp/radio_stream_files/Dutch_stations.m3u
+
+Playlist: German Stations
+Processing line 49: http://srv01.radio7.fmstreams.de/stream1/livestream.mp3.m3u
+Title: Radio 7 Germany
+Processing line 50: http://www.antenne.de/webradio/channels/top-40.m3u
+Title: Antenne Bayern Top 40
+Processing line 51: http://www.country108.com/listen.pls
+ERROR: Failed to retrieve  Country 108 http://www.country108.com/listen.pls
+Creating /tmp/radio_stream_files/German_Stations.m3u
+
+Playlist: Italian Stations
+Processing line 55: http://www.listenlive.eu/rai1.m3u
+Title: RAI Radio Uno
+Processing line 56: http://www.listenlive.eu/rai2.m3u
+Title: RAI Radio Duo
+Processing line 57: http://kemoniastreaming2.net:8010/listen.pls
+Title: Prima Radio Napoli
+Creating /tmp/radio_stream_files/Italian_Stations.m3u
+
+Playlist: France
+Processing line 61: http://streaming.radio.rtl.fr/rtl-1-44-128.m3u
+Title: RTL
+Processing line 62: http://streaming.radio.rtl.fr/rtl2-1-44-128.m3u
+Title: RTL2
+Processing line 63: http://www.musicboxtv.com:8000/live.m3u
+ERROR: Failed to retrieve  Music Box http://www.musicboxtv.com:8000/live.m3u
+Creating /tmp/radio_stream_files/France.m3u
+
+Playlist: Country music
+Processing line 67: http://server-10.stream-server.nl:8300/listen.pls
+Title: Nashville FM
+Creating /tmp/radio_stream_files/Country_music.m3u
+
+Playlist: Jazz stations
+Processing line 71: http://streaming.radionomy.com/ghost-sky
+Title: Ghost Sky Jazz
+Processing line 72: http://streaming.radionomy.com/RadioSky-Music
+Title: Radio Sky Music
+Creating /tmp/radio_stream_files/Jazz_stations.m3u
+
+Playlist: Belgium
+Processing line 75: http://77.92.64.44:8045/stream
+Title: Crooze FM
+Creating /tmp/radio_stream_files/Belgium.m3u
+
+Processed 30 station URLs from /var/lib/radiod/stationlist
+Copying 8 new playlist files to directory /var/lib/mpd/playlists/
+
+New radio playlist files will be found in /var/lib/mpd/playlists/
+2 error(s)

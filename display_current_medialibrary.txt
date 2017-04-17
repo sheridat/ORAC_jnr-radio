@@ -1,0 +1,42 @@
+
+album: Soundtracks
+date: 1985
+artist: Ry Cooder
+track: 03
+title: Too Close
+pos: 95
+last-modified: 2017-04-06T21:54:35Z
+disc: 3
+file: share/Ry Cooder/Soundtracks - Alamo Bay/03 Too Close.flac
+time: 203
+genre: Blues
+id: 176
+current_id 96
+
+Status
+songid: 176
+playlistlength: 211
+playlist: 55
+repeat: 0
+consume: 0
+mixrampdb: 0.000000
+random: 0
+state: play
+elapsed: 68.359
+volume: 0
+single: 0
+nextsong: 96
+time: 68:203
+song: 95
+audio: 44100:16:2
+bitrate: 589
+nextsongid: 177
+
+uptime: 10238
+db_update: 1491823239
+artists: 11
+playtime: 10229
+albums: 14
+db_playtime: 51233
+songs: 211
+Bit rate 589

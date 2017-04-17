@@ -1,0 +1,35 @@
+
+id: 47
+pos: 6
+name: Audiophile Lounge
+file: http://8.38.78.173:8226#Audiophile Lounge
+title: Bo.Da' - Papa Don't Preach
+current_id 7
+
+Status
+songid: 47
+playlistlength: 40
+playlist: 53
+repeat: 0
+consume: 0
+mixrampdb: 0.000000
+random: 0
+state: play
+elapsed: 10131.882
+volume: 0
+single: 0
+nextsong: 7
+time: 10132:0
+song: 6
+audio: 44100:24:2
+bitrate: 320
+nextsongid: 48
+
+uptime: 10141
+db_update: 1491823239
+artists: 11
+playtime: 10133
+albums: 14
+db_playtime: 51233
+songs: 211
+Bit rate 320
